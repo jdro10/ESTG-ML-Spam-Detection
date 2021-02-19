@@ -44,6 +44,11 @@ O tratamento do dataset original consistiu nos seguintes passos:
 * Lematização de palavras (utilização do stem da biblioteca NLTK).
 * Colocação de palvras em colunas.
 
+Visto o dataset não ser balanceado (~87% entradas não spam e ~13% entradas spam) foi necessário balancear o dataset.
+Foram utilizadas duas técnicas:
+* Undersampling (foram eliminados aleatóriamente entradas da classe maioritária (não spam).
+* SMOTE - Synthetic Minority Oversampling Technique (foram criadas aleatóriamente novas entradas com base nas entradas já existentes da classe minoritária). 
+
 ### Modelo
 Desenvolvidos dois modelos diferentes de classificação.
 * KNN (K-Nearest Neighbors)
