@@ -22,7 +22,7 @@ Modelo treinado com recurso a um dataset inglês.
 │   └── saved_models             # Pasta que contém modelos já treinados
 │       ├── KNN_model.sav
 │       ├── RandomForest_Model.sav
-│       └── RandomForest_Mode_Under.sav
+│       └── RandomForest_Model_Under.sav
 ├── rest_api                     # REST API em flask
     ├── app.py                   # Flask
     └── controllers
