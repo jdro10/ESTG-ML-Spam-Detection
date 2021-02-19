@@ -46,7 +46,7 @@ O tratamento do dataset original consistiu nos seguintes passos:
 
 Visto o dataset não estar balanceado (~87% entradas não spam e ~13% entradas spam) foi necessário balancear.
 Foram utilizadas duas técnicas:
-* Undersampling (foram eliminados aleatóriamente entradas da classe maioritária (não spam).
+* Undersampling (foram eliminados aleatóriamente entradas da classe maioritária (não spam)).
 * SMOTE - Synthetic Minority Oversampling Technique (foram criadas aleatóriamente novas entradas com base nas entradas já existentes da classe minoritária). 
 
 ### Modelo
