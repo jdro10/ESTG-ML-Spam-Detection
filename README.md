@@ -1,4 +1,4 @@
-# ESTG-ML-SpamDetection
+# Spam Detection
 Este projeto consiste na criação de um modelo que detete se uma determinada frase é spam ou não spam (aprendizagem supervisionada).
 Modelo treinado com recurso a um dataset inglês.
 
