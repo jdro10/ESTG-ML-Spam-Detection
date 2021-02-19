@@ -6,7 +6,7 @@ Modelo treinado com recurso a um dataset inglês.
 
 ```
 ├── analysis                     
-│   └── detection_algorithm      # Criação de estatísticas dos datasets
+│   └── data_analysis.py         # Criação de estatísticas dos datasets
 ├── data_preparation             # Contém todos os scripts de tratamento de dados
 │   ├── final_dataset.py
 │   ├── fix_original_dataset.py  
