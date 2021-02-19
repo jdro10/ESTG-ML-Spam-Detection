@@ -1,0 +1,12 @@
+pandas~=1.2.1
+flask~=1.1.2
+joblib~=1.0.0
+numpy~=1.19.2
+wordninja~=2.0.0
+unidecode~=1.1.2
+nltk~=3.5
+scikit-learn~=0.23.2
+scipy~=1.5.2
+matplotlib~=3.3.3
+imblearn~=0.0
+seaborn~=0.11.1
