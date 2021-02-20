@@ -80,7 +80,7 @@ def spam_or_not_spam(string):
         for j in range(len(write_list)):
             write_list[pos_list[i]] = repeated[words_list[i]]
 
-    loaded_model = joblib.load("../../modeling_and_evaluation/saved_models/RandomForest_Model_Under.sav")
+    loaded_model = joblib.load("../../algorithm_preparation/saved_models/RandomForest_Model_Under.sav")
 
     write_list = np.array([write_list])
     result = loaded_model.predict(write_list)
