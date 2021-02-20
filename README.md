@@ -6,7 +6,7 @@ Modelo treinado com recurso a um dataset inglês.
 
 ```
 ├── algorithm_preparation
-│   ├── balancing.py             # Algorithm training
+│   ├── balancing.py             # Treino dos algoritmos 
 │   ├── load_model.py            # Leitura de um modelo
 │   ├── pca.py                   # Principal component analysis
 │   └── saved_models             # Pasta que contém modelos já treinados
