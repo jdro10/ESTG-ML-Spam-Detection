@@ -5,6 +5,14 @@ Modelo treinado com recurso a um dataset inglês.
 ### Estrutura do projeto
 
 ```
+├── algorithm_preparation
+│   ├── balancing.py             # Algorithm training
+│   ├── load_model.py            # Leitura de um modelo
+│   ├── pca.py                   # Principal component analysis
+│   └── saved_models             # Pasta que contém modelos já treinados
+│       ├── KNN_model.sav
+│       ├── RandomForest_Model.sav
+│       └── RandomForest_Model_Under.sav
 ├── analysis                     
 │   └── data_analysis.py         # Criação de estatísticas dos datasets
 ├── data_preparation             # Contém todos os scripts de tratamento de dados
@@ -16,13 +24,6 @@ Modelo treinado com recurso a um dataset inglês.
 │   └── only_spam_dataset.py
 ├── datasets                     # Contém todos os dadasets utilizados no projeto
 ├── img                          # Gráficos dos datasets e modelos
-├── modeling_and_evaluation
-│   ├── load_model.py            # Leitura de um modelo
-│   ├── pca.py                   # Principal component analysis
-│   └── saved_models             # Pasta que contém modelos já treinados
-│       ├── KNN_model.sav
-│       ├── RandomForest_Model.sav
-│       └── RandomForest_Model_Under.sav
 ├── rest_api                     # REST API em flask
     ├── app.py                   # Flask
     └── controllers
