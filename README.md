@@ -1,6 +1,15 @@
-# Spam Detection
+<h1 align="center">Spam Detection</h1>
 Este projeto consiste na criação de um modelo que detete se uma determinada frase é spam ou não spam (aprendizagem supervisionada).
 Modelo treinado com recurso a um dataset inglês.
+
+### Tecnologia
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
+![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
+
 
 ### Estrutura do projeto
 
