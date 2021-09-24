@@ -75,3 +75,9 @@ Desenvolvidos dois modelos diferentes de classificação.
 
 ### Unidade Curricular
 * Machine Learning - Mestrado Engenharia Informática
+
+### License
+
+[![GitHub license](https://img.shields.io/github/license/jdro10/f1-data.svg)](https://github.com/jdro10/ESTG-ML-Spam-Detection/blob/master/LICENSE)
+
+
